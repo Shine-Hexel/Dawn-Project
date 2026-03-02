@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 32px 16px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 24px;
+}
+section{
+    background-color: #fff9f0;
+    border: 1px solid #e8d5bf;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.pertama{
+    text-align: center;
+}
+
+h1, h2{
+    color: brown;
+}
+.deskripsi{
+    margin: 0 auto;
+    max-width: 700px;
+    color: rgb(113, 71, 71);
+}
+.jenis ul{
+    margin: 0;
+    padding-left: 20px;
+}
+.jenis li{
+    margin-bottom: 14px;
+}
+.jenis a{
+    color: brown;
+    font-weight: 700;
+    text-decoration: none;
+}
+.penjelasan{
+    margin: 4px 0 0;
+    color: rgb(113, 71, 71);
+}
+form{
+    display:grid;
+}
+
+.join{
+    text-align: center;
+}
+.nama, .password{
+    color: brown;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    border: 1px solid #e8d5bf;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    margin-top: 8px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: brown;
+    color: #fff9f0;
+    cursor: pointer;
+    font-weight: 700;
+}
